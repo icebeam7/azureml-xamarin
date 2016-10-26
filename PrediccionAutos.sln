@@ -18,6 +18,7 @@ EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		PrediccionAutos\PrediccionAutos\PrediccionAutos.projitems*{76bdc828-8b00-4732-bb42-793ee3c78d94}*SharedItemsImports = 13
+		PrediccionAutos\PrediccionAutos\PrediccionAutos.projitems*{9e3a946a-4e44-4058-835a-958f74ae649b}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU

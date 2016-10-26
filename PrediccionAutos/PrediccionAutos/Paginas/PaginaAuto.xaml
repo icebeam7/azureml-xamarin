@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PrediccionAutos.Paginas.PaginaAuto">
+	<StackLayout BackgroundColor="Black">
+    <StackLayout Orientation="Horizontal">
+      <Label Text="make" TextColor="White" VerticalOptions="Center" WidthRequest="100"/>
+      <Entry x:Name="make" TextColor="Black" BackgroundColor="White" WidthRequest="200"/>
+    </StackLayout>
+    <StackLayout Orientation="Horizontal">
+      <Label Text="body-style" TextColor="White" VerticalOptions="Center" WidthRequest="100"/>
+      <Entry x:Name="body" TextColor="Black" BackgroundColor="White" WidthRequest="200"/>
+    </StackLayout>
+    <StackLayout Orientation="Horizontal">
+      <Label Text="wheel-base" TextColor="White" VerticalOptions="Center" WidthRequest="100"/>
+      <Entry x:Name="wheel" TextColor="Black" BackgroundColor="White" WidthRequest="200"/>
+    </StackLayout>
+    <StackLayout Orientation="Horizontal">
+      <Label Text="engine-size" TextColor="White" VerticalOptions="Center" WidthRequest="100"/>
+      <Entry x:Name="engine" TextColor="Black" BackgroundColor="White" WidthRequest="200"/>
+    </StackLayout>
+    <StackLayout Orientation="Horizontal">
+      <Label Text="horsepower" TextColor="White" VerticalOptions="Center" WidthRequest="100"/>
+      <Entry x:Name="horsepower" TextColor="Black" BackgroundColor="White" WidthRequest="200"/>
+    </StackLayout>
+    <StackLayout Orientation="Horizontal">
+      <Label Text="peak-rpm" TextColor="White" VerticalOptions="Center" WidthRequest="100"/>
+      <Entry x:Name="peak" TextColor="Black" BackgroundColor="White" WidthRequest="200"/>
+    </StackLayout>
+    <StackLayout Orientation="Horizontal">
+      <Label Text="highway-mpg" TextColor="White" VerticalOptions="Center" WidthRequest="100"/>
+      <Entry x:Name="highway" TextColor="Black" BackgroundColor="White" WidthRequest="200"/>
+    </StackLayout>
+    <Button BackgroundColor="Silver" TextColor="Green" x:Name="btnPredecir" Text="Predecir" Clicked="btnPredecir_Clicked" WidthRequest="200" HorizontalOptions="Center"/>
+    <StackLayout Orientation="Horizontal">
+      <Label Text="price" TextColor="White" VerticalOptions="Center" WidthRequest="100"/>
+      <Label x:Name="price" TextColor="White" IsEnabled="False" WidthRequest="200"/>
+    </StackLayout>
+  </StackLayout>
+</ContentPage>
